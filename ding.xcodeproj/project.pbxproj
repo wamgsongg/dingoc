@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F0D107B247C05A7001FB5FC /* Mine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D107A247C05A7001FB5FC /* Mine.m */; };
 		6FEE7136247B95A1009BAB2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7135247B95A1009BAB2C /* AppDelegate.m */; };
 		6FEE7139247B95A1009BAB2C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7138247B95A1009BAB2C /* SceneDelegate.m */; };
 		6FEE713C247B95A1009BAB2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE713B247B95A1009BAB2C /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F0D1079247C05A7001FB5FC /* Mine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mine.h; sourceTree = "<group>"; };
+		6F0D107A247C05A7001FB5FC /* Mine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mine.m; sourceTree = "<group>"; };
 		6FEE7131247B95A1009BAB2C /* ding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FEE7134247B95A1009BAB2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6FEE7135247B95A1009BAB2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				6FEE713A247B95A1009BAB2C /* ViewController.h */,
 				6FEE713B247B95A1009BAB2C /* ViewController.m */,
 				6FEE713D247B95A1009BAB2C /* Main.storyboard */,
+				6F0D1079247C05A7001FB5FC /* Mine.h */,
+				6F0D107A247C05A7001FB5FC /* Mine.m */,
 				6FEE7143247B95A1009BAB2C /* Assets.xcassets */,
 				6FEE7178247BD189009BAB2C /* User.h */,
 				6FEE7179247BD189009BAB2C /* User.m */,
@@ -282,6 +287,7 @@
 			files = (
 				6FEE714A247B95A1009BAB2C /* main.m in Sources */,
 				6FEE717A247BD189009BAB2C /* User.m in Sources */,
+				6F0D107B247C05A7001FB5FC /* Mine.m in Sources */,
 				6FEE7174247BB0A8009BAB2C /* MainViewController.m in Sources */,
 				6FEE713C247B95A1009BAB2C /* ViewController.m in Sources */,
 				6FEE7136247B95A1009BAB2C /* AppDelegate.m in Sources */,

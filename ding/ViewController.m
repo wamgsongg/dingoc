@@ -57,13 +57,16 @@
     NSLog(@"dic:%@", dic);
     NSString *msg = [dic valueForKey:@"msg"];
      NSDictionary *data = [dic valueForKey:@"data"];
+    AppDelegate *app = [[UIApplication sharedApplication] delegate];
+    
     if ([msg isEqualToString:@"success"]) {
         User *u = [[User alloc]init];
         u.loginName = [data valueForKey:@"loginName"];
-        self.user = u;
+        u.user_name = [data valueForKey:@"userName"];
+         app.usr = u;
         
     }
-    if (self.user.loginName!=nil) {
+    if (app.usr.loginName!=nil) {
                   NSLog(@"loginname:%@",self.user.loginName);
         [self performSegueWithIdentifier:@"login" sender:nil];
     }

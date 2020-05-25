@@ -15,7 +15,7 @@
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 
 - (void)saveContext;
-
+@property (strong,nonatomic) User *usr;
 
 @end
 
