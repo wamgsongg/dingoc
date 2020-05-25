@@ -424,7 +424,7 @@
         <!--Item-->
         <scene sceneID="Fmv-89-nCj">
             <objects>
-                <navigationController id="lyy-yN-Uxt" sceneMemberID="viewController">
+                <navigationController modalPresentationStyle="fullScreen" id="lyy-yN-Uxt" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" image="text.justify" catalog="system" selectedImage="text.justify" id="Eaf-hc-13p"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8dJ-lw-4Gb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -470,7 +470,7 @@
         <!--Item-->
         <scene sceneID="Tz5-AP-4da">
             <objects>
-                <navigationController id="eqr-93-ONy" sceneMemberID="viewController">
+                <navigationController modalPresentationStyle="fullScreen" id="eqr-93-ONy" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" image="person.2" catalog="system" selectedImage="person.2" id="WNI-sV-dBX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9yz-az-aJu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -483,20 +483,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gb5-fm-Uhv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="548" y="228"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="gsZ-ki-vwq">
-            <objects>
-                <viewController id="95e-VI-fxc" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rdM-M7-ZaR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WGe-pK-43D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2200" y="463"/>
         </scene>
     </scenes>
     <resources>
