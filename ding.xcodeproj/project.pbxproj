@@ -17,6 +17,8 @@
 		6FEE714A247B95A1009BAB2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7149247B95A1009BAB2C /* main.m */; };
 		6FEE7154247B95A2009BAB2C /* dingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7153247B95A2009BAB2C /* dingTests.m */; };
 		6FEE715F247B95A2009BAB2C /* dingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE715E247B95A2009BAB2C /* dingUITests.m */; };
+		6FEE7174247BB0A8009BAB2C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7173247BB0A8009BAB2C /* MainViewController.m */; };
+		6FEE717A247BD189009BAB2C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7179247BD189009BAB2C /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		6FEE715A247B95A2009BAB2C /* dingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FEE715E247B95A2009BAB2C /* dingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dingUITests.m; sourceTree = "<group>"; };
 		6FEE7160247B95A2009BAB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FEE7172247BB0A8009BAB2C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6FEE7173247BB0A8009BAB2C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6FEE7178247BD189009BAB2C /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		6FEE7179247BD189009BAB2C /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,8 @@
 		6FEE7133247B95A1009BAB2C /* ding */ = {
 			isa = PBXGroup;
 			children = (
+				6FEE7172247BB0A8009BAB2C /* MainViewController.h */,
+				6FEE7173247BB0A8009BAB2C /* MainViewController.m */,
 				6FEE7134247B95A1009BAB2C /* AppDelegate.h */,
 				6FEE7135247B95A1009BAB2C /* AppDelegate.m */,
 				6FEE7137247B95A1009BAB2C /* SceneDelegate.h */,
@@ -114,6 +122,8 @@
 				6FEE713B247B95A1009BAB2C /* ViewController.m */,
 				6FEE713D247B95A1009BAB2C /* Main.storyboard */,
 				6FEE7143247B95A1009BAB2C /* Assets.xcassets */,
+				6FEE7178247BD189009BAB2C /* User.h */,
+				6FEE7179247BD189009BAB2C /* User.m */,
 				6FEE7145247B95A1009BAB2C /* LaunchScreen.storyboard */,
 				6FEE7148247B95A1009BAB2C /* Info.plist */,
 				6FEE7149247B95A1009BAB2C /* main.m */,
@@ -271,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FEE714A247B95A1009BAB2C /* main.m in Sources */,
+				6FEE717A247BD189009BAB2C /* User.m in Sources */,
+				6FEE7174247BB0A8009BAB2C /* MainViewController.m in Sources */,
 				6FEE713C247B95A1009BAB2C /* ViewController.m in Sources */,
 				6FEE7136247B95A1009BAB2C /* AppDelegate.m in Sources */,
 				6FEE7139247B95A1009BAB2C /* SceneDelegate.m in Sources */,
