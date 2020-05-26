@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		6F0D107B247C05A7001FB5FC /* Mine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D107A247C05A7001FB5FC /* Mine.m */; };
+		6F0D107E247CD31F001FB5FC /* WorksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D107D247CD31F001FB5FC /* WorksViewController.m */; };
+		6F0D1082247CD533001FB5FC /* WorksTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D1080247CD533001FB5FC /* WorksTableViewCell.m */; };
+		6F0D1083247CD533001FB5FC /* WorksTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F0D1081247CD533001FB5FC /* WorksTableViewCell.xib */; };
+		6F0D1086247CEDD0001FB5FC /* Work.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D1085247CEDD0001FB5FC /* Work.m */; };
 		6FEE7136247B95A1009BAB2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7135247B95A1009BAB2C /* AppDelegate.m */; };
 		6FEE7139247B95A1009BAB2C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7138247B95A1009BAB2C /* SceneDelegate.m */; };
 		6FEE713C247B95A1009BAB2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE713B247B95A1009BAB2C /* ViewController.m */; };
@@ -42,6 +46,13 @@
 /* Begin PBXFileReference section */
 		6F0D1079247C05A7001FB5FC /* Mine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mine.h; sourceTree = "<group>"; };
 		6F0D107A247C05A7001FB5FC /* Mine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mine.m; sourceTree = "<group>"; };
+		6F0D107C247CD31F001FB5FC /* WorksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorksViewController.h; sourceTree = "<group>"; };
+		6F0D107D247CD31F001FB5FC /* WorksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorksViewController.m; sourceTree = "<group>"; };
+		6F0D107F247CD533001FB5FC /* WorksTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorksTableViewCell.h; sourceTree = "<group>"; };
+		6F0D1080247CD533001FB5FC /* WorksTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorksTableViewCell.m; sourceTree = "<group>"; };
+		6F0D1081247CD533001FB5FC /* WorksTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorksTableViewCell.xib; sourceTree = "<group>"; };
+		6F0D1084247CEDD0001FB5FC /* Work.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Work.h; sourceTree = "<group>"; };
+		6F0D1085247CEDD0001FB5FC /* Work.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Work.m; sourceTree = "<group>"; };
 		6FEE7131247B95A1009BAB2C /* ding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FEE7134247B95A1009BAB2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6FEE7135247B95A1009BAB2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -119,11 +130,18 @@
 				6FEE7173247BB0A8009BAB2C /* MainViewController.m */,
 				6FEE7134247B95A1009BAB2C /* AppDelegate.h */,
 				6FEE7135247B95A1009BAB2C /* AppDelegate.m */,
+				6F0D107F247CD533001FB5FC /* WorksTableViewCell.h */,
+				6F0D1080247CD533001FB5FC /* WorksTableViewCell.m */,
+				6F0D1081247CD533001FB5FC /* WorksTableViewCell.xib */,
+				6F0D1084247CEDD0001FB5FC /* Work.h */,
+				6F0D1085247CEDD0001FB5FC /* Work.m */,
 				6FEE7137247B95A1009BAB2C /* SceneDelegate.h */,
 				6FEE7138247B95A1009BAB2C /* SceneDelegate.m */,
 				6FEE713A247B95A1009BAB2C /* ViewController.h */,
 				6FEE713B247B95A1009BAB2C /* ViewController.m */,
 				6FEE713D247B95A1009BAB2C /* Main.storyboard */,
+				6F0D107C247CD31F001FB5FC /* WorksViewController.h */,
+				6F0D107D247CD31F001FB5FC /* WorksViewController.m */,
 				6F0D1079247C05A7001FB5FC /* Mine.h */,
 				6F0D107A247C05A7001FB5FC /* Mine.m */,
 				6FEE7143247B95A1009BAB2C /* Assets.xcassets */,
@@ -258,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0D1083247CD533001FB5FC /* WorksTableViewCell.xib in Resources */,
 				6FEE7147247B95A1009BAB2C /* LaunchScreen.storyboard in Resources */,
 				6FEE7144247B95A1009BAB2C /* Assets.xcassets in Resources */,
 				6FEE713F247B95A1009BAB2C /* Main.storyboard in Resources */,
@@ -285,11 +304,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0D1086247CEDD0001FB5FC /* Work.m in Sources */,
 				6FEE714A247B95A1009BAB2C /* main.m in Sources */,
 				6FEE717A247BD189009BAB2C /* User.m in Sources */,
 				6F0D107B247C05A7001FB5FC /* Mine.m in Sources */,
 				6FEE7174247BB0A8009BAB2C /* MainViewController.m in Sources */,
 				6FEE713C247B95A1009BAB2C /* ViewController.m in Sources */,
+				6F0D107E247CD31F001FB5FC /* WorksViewController.m in Sources */,
+				6F0D1082247CD533001FB5FC /* WorksTableViewCell.m in Sources */,
 				6FEE7136247B95A1009BAB2C /* AppDelegate.m in Sources */,
 				6FEE7139247B95A1009BAB2C /* SceneDelegate.m in Sources */,
 				6FEE7142247B95A1009BAB2C /* ding.xcdatamodeld in Sources */,

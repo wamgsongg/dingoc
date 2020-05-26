@@ -63,11 +63,22 @@
         User *u = [[User alloc]init];
         u.loginName = [data valueForKey:@"loginName"];
         u.user_name = [data valueForKey:@"userName"];
-         app.usr = u;
+        
+        u.uid = [[data valueForKey:@"uid"] intValue];
+        u.userCode = [data valueForKey:@"userCode"];
+        u.userDepartment = [data valueForKey:@"userDepartment"];
+        u.did = [[data valueForKey:@"userDid"] intValue];
+        u.userEmail = [data valueForKey:@"userEmail"];
+        u.userIcon = [data valueForKey:@"userIcon"];
+        u.userQQ = [data valueForKey:@"userQq"];
+        u.userSex = [data valueForKey:@"userSex"];
+        u.userStatus = [data valueForKey:@"userStatus"];
+        u.userWechat = [data valueForKey:@"userWechat"];
+        app.usr = u;
         
     }
     if (app.usr.loginName!=nil) {
-                  NSLog(@"loginname:%@",self.user.loginName);
+                  NSLog(@"usr:%@",app.usr);
         [self performSegueWithIdentifier:@"login" sender:nil];
     }
    // NSString *result = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];

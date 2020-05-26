@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 #import "User.h"
+#import "Work.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -16,6 +17,7 @@
 
 - (void)saveContext;
 @property (strong,nonatomic) User *usr;
+@property (strong,nonatomic) NSMutableArray *works;
 
 @end
 
