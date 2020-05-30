@@ -11,15 +11,15 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Work : NSObject
-@property int wid;
-@property int wCreateId;
-@property NSString *wCreateName;
-@property NSString *wDepartment;
-@property NSString *wTitle;
-@property NSString *wContent;
-@property NSDate* wCreateDate;
-@property NSDate* wEndDate;
-@property NSString *wStatus;
+@property (nonatomic) int wid;
+@property (nonatomic) int wCreateId;
+@property (nonatomic) NSString *wCreateName;
+@property (nonatomic) NSString *wDepartment;
+@property (nonatomic) NSString *wTitle;
+@property (nonatomic) NSString *wContent;
+@property (nonatomic) NSString *wCreateDate;
+@property (nonatomic) NSString *wEndDate;
+@property (nonatomic) NSString *wStatus;
 
 @end
 

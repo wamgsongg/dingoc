@@ -13,20 +13,20 @@ NS_ASSUME_NONNULL_BEGIN
 @interface User : NSObject
 
 
-@property int uid;
-@property int did;
-@property NSString *loginName;
-@property NSString *loginPwd;
-@property NSDate *userIcon;
-@property NSString *userDepartment;
-@property NSString *user_name;
-@property NSString *userSex;
-@property NSString *userTel;
-@property NSString *userEmail;
-@property NSString *userQQ;
-@property NSString *userWechat;
-@property NSDate *userCode;
-@property NSString *userStatus;
+@property (nonatomic) int uid;
+@property (nonatomic) int did;
+@property (nonatomic) NSString *loginName;
+@property (nonatomic) NSString *loginPwd;
+@property (nonatomic) NSDate *userIcon;
+@property (nonatomic) NSString *userDepartment;
+@property (nonatomic) NSString *user_name;
+@property (nonatomic) NSString *userSex;
+@property (nonatomic) NSString *userTel;
+@property (nonatomic) NSString *userEmail;
+@property (nonatomic) NSString *userQQ;
+@property (nonatomic) NSString *userWechat;
+@property (nonatomic) NSDate *userCode;
+@property (nonatomic) NSString *userStatus;
 
 @end
 

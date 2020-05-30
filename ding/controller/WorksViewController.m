@@ -10,6 +10,9 @@
 #import "AppDelegate.h"
 #import "Work.h"
 #import "WorksTableViewCell.h"
+#import "WorksInfViewController.h"
+
+
 @interface WorksViewController ()
 @property NSMutableArray *tableData;
 @end
@@ -69,7 +72,7 @@
     
    
    
-   // cell.endDate.text = [w valueForKey:@"wendDate"];
+    cell.endDate.text = [w valueForKey:@"wendDate"];
     cell.status.text = [w valueForKey:@"wstatus"];
   //测试图片
   //cell.iamge.image = [UIImage imageNamed:@"testImage.jpg"];
@@ -80,6 +83,31 @@
   
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-  
+    [self performSegueWithIdentifier:@"work" sender:nil];
+}
+#pragma mark - actionsheet的代理方法
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex != 0) return;
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+/**
+ *  执行跳转之前会调用
+ *  在这个方法中,目标控制器的view还没有被创建
+ */
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier  isEqual: @"work"]) {
+    //实例化第二个页面
+       id vc = segue.destinationViewController;
+        WorksInfViewController *page2 = vc;
+        //传值
+        NSIndexPath *path = [self.tableView indexPathForSelectedRow];
+        page2.data = [_tableData objectAtIndex:path.row];
+
+    }
+    
 }
 @end
