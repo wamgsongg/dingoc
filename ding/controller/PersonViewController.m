@@ -24,13 +24,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.name.text = [_data valueForKey:@"userName"];
-    self.dep.text = [_data valueForKey:@"userDepartment"];
-    self.sex.text = [_data valueForKey:@"userSex"];
-    self.tel.text = [_data valueForKey:@"userTel"];
-    self.email.text = [_data valueForKey:@"userEmail"];
-    self.qq.text = [_data valueForKey:@"userQq"];
-    self.wechat.text = [_data valueForKey:@"userWechat"];
+    NSLog(@"%@",_data);
+    if (![_data[@"userName"] isKindOfClass:[NSNull class]]) {
+        self.name.text = [_data valueForKey:@"userName"];
+
+    }
+    if (![_data[@"userDepartment"] isKindOfClass:[NSNull class]]) {
+       self.dep.text = [_data valueForKey:@"userDepartment"];
+
+    }
+    if (![_data[@"userSex"] isKindOfClass:[NSNull class]]) {
+        self.sex.text = [_data valueForKey:@"userSex"];
+
+    }
+    if (![_data[@"userTel"] isKindOfClass:[NSNull class]]) {
+        self.tel.text = [_data valueForKey:@"userTel"];
+
+    }
+    NSLog(@"%@",[_data valueForKey:@"userQq"]);
+    if (![_data[@"userEmail"] isKindOfClass:[NSNull class]]) {
+       self.email.text = [_data valueForKey:@"userEmail"];
+
+    }
+    if (![_data[@"userQq"] isKindOfClass:[NSNull class]]) {
+        self.qq.text = [_data valueForKey:@"userQq"];
+
+    }
+    if (![_data[@"userWechat"] isKindOfClass:[NSNull class]]) {
+        self.wechat.text = [_data valueForKey:@"userWechat"];
+    }
+   
+    
+
 }
 
 @end

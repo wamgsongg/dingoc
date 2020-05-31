@@ -10,6 +10,8 @@
 #import "User.h"
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "MBProgressHUD+MJ.h"
+
 @interface ViewController ()<NSURLSessionDataDelegate>//这个是请求数据的代理
 
 @property (weak, nonatomic) IBOutlet UITextField *username;
@@ -84,6 +86,10 @@
         
         [self performSegueWithIdentifier:@"login" sender:nil];
     }
+    else{
+        [MBProgressHUD showError:@"fail"];
+        return;
+    }
    // NSString *result = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         
    // NSLog(@"%@", result);
@@ -139,7 +145,10 @@
         if (self.user.loginName!=nil) {
                NSLog(@"loginname:%@",self.user.loginName);
              [self performSegueWithIdentifier:@"login" sender:nil];
-           }
+        }else{
+            [MBProgressHUD showError:@"fail"];
+            return;
+        }
         
     }];
     

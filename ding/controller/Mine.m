@@ -29,29 +29,32 @@
     _username.text = app.usr.user_name;
     _quit.layer.borderColor = [[UIColor redColor]CGColor];
     NSLog(@"%@",app.usr.userTel);
-    if (app.usr.userTel!=nil) {
+    if (![app.usr.userTel isKindOfClass:[NSNull class]]) {
         _phone.text = app.usr.userTel;
     }
-    if (app.usr.userEmail!=nil) {
+    if (![app.usr.userEmail isKindOfClass:[NSNull class]]) {
         _email.text = app.usr.userEmail;
     }
-    if (app.usr.userQQ!=nil) {
-        _qq.text = app.usr.userQQ;
+    if (![app.usr.userQQ isKindOfClass:[NSNull class]]) {
+         _qq.text = app.usr.userQQ;
     }
-    if (app.usr.userWechat!=nil) {
+    if (![app.usr.userWechat isKindOfClass:[NSNull class]]) {
         _wechat.text = app.usr.userWechat;
     }
-    
-    if (app.usr.userDepartment!=nil) {
-        _dep.text = app.usr.userDepartment;
+    if (![app.usr.userDepartment isKindOfClass:[NSNull class]]) {
+         _dep.text = app.usr.userDepartment;
     }
-    if (app.usr.userSex!=nil) {
+   if (![app.usr.userSex isKindOfClass:[NSNull class]]) {
         _sex.text = app.usr.userSex;
     }
+
 }
 
 
 - (IBAction)loginout:(id)sender {
+    AppDelegate *app = [[UIApplication sharedApplication] delegate];
+    app.usr = nil;
+    app.works = nil;
       [self dismissModalViewControllerAnimated:true];
 }
 

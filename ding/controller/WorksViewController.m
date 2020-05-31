@@ -24,7 +24,9 @@
     [super viewDidLoad];
     AppDelegate *app = [[UIApplication sharedApplication] delegate];
     _tableData = app.works;
-
+    if ([app.usr.userStatus isEqualToString:@"员工"]) {
+        self.navigationItem.rightBarButtonItem = nil;
+    }
     self.tableView.rowHeight = 90;
 }
 
