@@ -21,6 +21,7 @@
 		6F106A7E24836BA300D7CC47 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F106A7D24836BA300D7CC47 /* MBProgressHUD+MJ.m */; };
 		6F106A8024836BA900D7CC47 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F106A7F24836BA900D7CC47 /* MBProgressHUD.bundle */; };
 		6F106A8324836BC000D7CC47 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F106A8224836BC000D7CC47 /* MBProgressHUD.m */; };
+		6F9FFD1A248E416800619476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9FFD19248E416800619476 /* Assets.xcassets */; };
 		6FB477E42483977D00547932 /* WorkingInfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB477E32483977D00547932 /* WorkingInfViewController.m */; };
 		6FB477E72483BECD00547932 /* MyWorkAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB477E62483BECD00547932 /* MyWorkAddViewController.m */; };
 		6FE7E7D624837C9000775B32 /* MyWorksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7E7D524837C9000775B32 /* MyWorksViewController.m */; };
@@ -33,7 +34,6 @@
 		6FEE713C247B95A1009BAB2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE713B247B95A1009BAB2C /* ViewController.m */; };
 		6FEE713F247B95A1009BAB2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FEE713D247B95A1009BAB2C /* Main.storyboard */; };
 		6FEE7142247B95A1009BAB2C /* ding.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7140247B95A1009BAB2C /* ding.xcdatamodeld */; };
-		6FEE7144247B95A1009BAB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FEE7143247B95A1009BAB2C /* Assets.xcassets */; };
 		6FEE7147247B95A1009BAB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FEE7145247B95A1009BAB2C /* LaunchScreen.storyboard */; };
 		6FEE714A247B95A1009BAB2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7149247B95A1009BAB2C /* main.m */; };
 		6FEE7154247B95A2009BAB2C /* dingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7153247B95A2009BAB2C /* dingTests.m */; };
@@ -85,6 +85,7 @@
 		6F106A7F24836BA900D7CC47 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		6F106A8124836BB900D7CC47 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		6F106A8224836BC000D7CC47 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6F9FFD19248E416800619476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FB477E22483977D00547932 /* WorkingInfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkingInfViewController.h; sourceTree = "<group>"; };
 		6FB477E32483977D00547932 /* WorkingInfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkingInfViewController.m; sourceTree = "<group>"; };
 		6FB477E52483BECD00547932 /* MyWorkAddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWorkAddViewController.h; sourceTree = "<group>"; };
@@ -108,7 +109,6 @@
 		6FEE713B247B95A1009BAB2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6FEE713E247B95A1009BAB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FEE7141247B95A1009BAB2C /* ding.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ding.xcdatamodel; sourceTree = "<group>"; };
-		6FEE7143247B95A1009BAB2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FEE7146247B95A1009BAB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FEE7148247B95A1009BAB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FEE7149247B95A1009BAB2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -254,9 +254,9 @@
 				6FEE7137247B95A1009BAB2C /* SceneDelegate.h */,
 				6FEE7138247B95A1009BAB2C /* SceneDelegate.m */,
 				6FEE713D247B95A1009BAB2C /* Main.storyboard */,
-				6FEE7143247B95A1009BAB2C /* Assets.xcassets */,
 				6FEE7145247B95A1009BAB2C /* LaunchScreen.storyboard */,
 				6FEE7148247B95A1009BAB2C /* Info.plist */,
+				6F9FFD19248E416800619476 /* Assets.xcassets */,
 				6FEE7149247B95A1009BAB2C /* main.m */,
 				6FEE7140247B95A1009BAB2C /* ding.xcdatamodeld */,
 			);
@@ -387,9 +387,9 @@
 			files = (
 				6F0D1083247CD533001FB5FC /* WorksTableViewCell.xib in Resources */,
 				6FEE7147247B95A1009BAB2C /* LaunchScreen.storyboard in Resources */,
-				6FEE7144247B95A1009BAB2C /* Assets.xcassets in Resources */,
 				6FEE713F247B95A1009BAB2C /* Main.storyboard in Resources */,
 				6F106A772482EB8800D7CC47 /* PeopleTableViewCell.xib in Resources */,
+				6F9FFD1A248E416800619476 /* Assets.xcassets in Resources */,
 				6F106A8024836BA900D7CC47 /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

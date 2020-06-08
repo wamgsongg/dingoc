@@ -67,21 +67,40 @@
   
     NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:url];
       request.HTTPMethod = @"POST";
+    NSData* json = [NSJSONSerialization dataWithJSONObject:work options:NSJSONWritingPrettyPrinted error:nil];
+    request.HTTPBody = json;
+   // NSData *bodyData = [NSKeyedArchiver archivedDataWithRootObject:work];
+   // request.HTTPBody = bodyData;
+   [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
-    NSData *bodyData = [NSKeyedArchiver archivedDataWithRootObject:work];
-    request.HTTPBody = bodyData;
-    NSURLResponse *response = nil;
-    NSData *da = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:nil];
-    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:da options:kNilOptions error:nil];
-    NSLog(@"wdic:%@", dic);
-    NSString *msg = [dic valueForKey:@"msg"];
-    NSMutableArray *data = [dic valueForKey:@"data"];
+//
+//     NSURLResponse *response = nil;
+//    NSData *da = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:nil];
+//    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:da options:kNilOptions error:nil];
+//    NSLog(@"wdic:%@", dic);
+//    NSString *msg = [dic valueForKey:@"msg"];
+//    NSMutableArray *data = [dic valueForKey:@"data"];
+     NSURLSession* session = [NSURLSession sharedSession];
+        NSURLSessionDataTask* task = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+            // 错误判断
+            if (data==nil||error)return;
+           // 解析JSON
+            NSDictionary* dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
+            NSLog(@"wdic:%@", dic);
+            NSString *msg = [dic valueForKey:@"msg"];
+            NSMutableArray *da = [dic valueForKey:@"data"];
+            
+            if ([msg isEqualToString:@"success"]) {
+                [MBProgressHUD showSuccess:msg];
+                return;
+                // NSLog(@"%@",app.working);
+            }
+        }];
+        
+    [task resume];
     
-    if ([msg isEqualToString:@"success"]) {
-        [MBProgressHUD showSuccess:msg];
-        return;
-       // NSLog(@"%@",app.working);
-    }
+    
+    
     //NSLog(@"works:%@",app.works);
 }
 
