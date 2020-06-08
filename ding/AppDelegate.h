@@ -18,6 +18,7 @@
 - (void)saveContext;
 @property (strong,nonatomic) User *usr;
 @property (strong,nonatomic) NSMutableArray *works;
-
+@property (strong,nonatomic) NSMutableArray *myworks;
+@property (strong,nonatomic) NSMutableArray *working;
 @end
 

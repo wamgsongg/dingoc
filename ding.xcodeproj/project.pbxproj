@@ -21,6 +21,13 @@
 		6F106A7E24836BA300D7CC47 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F106A7D24836BA300D7CC47 /* MBProgressHUD+MJ.m */; };
 		6F106A8024836BA900D7CC47 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F106A7F24836BA900D7CC47 /* MBProgressHUD.bundle */; };
 		6F106A8324836BC000D7CC47 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F106A8224836BC000D7CC47 /* MBProgressHUD.m */; };
+		6FB477E42483977D00547932 /* WorkingInfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB477E32483977D00547932 /* WorkingInfViewController.m */; };
+		6FB477E72483BECD00547932 /* MyWorkAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB477E62483BECD00547932 /* MyWorkAddViewController.m */; };
+		6FE7E7D624837C9000775B32 /* MyWorksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7E7D524837C9000775B32 /* MyWorksViewController.m */; };
+		6FE7E7DC24837F6700775B32 /* MyWorksInfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7E7DB24837F6700775B32 /* MyWorksInfViewController.m */; };
+		6FE7E7DF2483840D00775B32 /* Person2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7E7DE2483840D00775B32 /* Person2ViewController.m */; };
+		6FE7E7E22483844B00775B32 /* People2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7E7E12483844B00775B32 /* People2ViewController.m */; };
+		6FE7E7E52483874D00775B32 /* WorkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7E7E42483874D00775B32 /* WorkingViewController.m */; };
 		6FEE7136247B95A1009BAB2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7135247B95A1009BAB2C /* AppDelegate.m */; };
 		6FEE7139247B95A1009BAB2C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7138247B95A1009BAB2C /* SceneDelegate.m */; };
 		6FEE713C247B95A1009BAB2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE713B247B95A1009BAB2C /* ViewController.m */; };
@@ -78,6 +85,20 @@
 		6F106A7F24836BA900D7CC47 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		6F106A8124836BB900D7CC47 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		6F106A8224836BC000D7CC47 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6FB477E22483977D00547932 /* WorkingInfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkingInfViewController.h; sourceTree = "<group>"; };
+		6FB477E32483977D00547932 /* WorkingInfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkingInfViewController.m; sourceTree = "<group>"; };
+		6FB477E52483BECD00547932 /* MyWorkAddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWorkAddViewController.h; sourceTree = "<group>"; };
+		6FB477E62483BECD00547932 /* MyWorkAddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWorkAddViewController.m; sourceTree = "<group>"; };
+		6FE7E7D424837C9000775B32 /* MyWorksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWorksViewController.h; sourceTree = "<group>"; };
+		6FE7E7D524837C9000775B32 /* MyWorksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWorksViewController.m; sourceTree = "<group>"; };
+		6FE7E7DA24837F6700775B32 /* MyWorksInfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWorksInfViewController.h; sourceTree = "<group>"; };
+		6FE7E7DB24837F6700775B32 /* MyWorksInfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWorksInfViewController.m; sourceTree = "<group>"; };
+		6FE7E7DD2483840C00775B32 /* Person2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person2ViewController.h; sourceTree = "<group>"; };
+		6FE7E7DE2483840D00775B32 /* Person2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person2ViewController.m; sourceTree = "<group>"; };
+		6FE7E7E02483844B00775B32 /* People2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People2ViewController.h; sourceTree = "<group>"; };
+		6FE7E7E12483844B00775B32 /* People2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People2ViewController.m; sourceTree = "<group>"; };
+		6FE7E7E32483874D00775B32 /* WorkingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkingViewController.h; sourceTree = "<group>"; };
+		6FE7E7E42483874D00775B32 /* WorkingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkingViewController.m; sourceTree = "<group>"; };
 		6FEE7131247B95A1009BAB2C /* ding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FEE7134247B95A1009BAB2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6FEE7135247B95A1009BAB2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -183,6 +204,20 @@
 				6F106A6B2482E48900D7CC47 /* PeopleViewController.m */,
 				6F106A782482EE8D00D7CC47 /* PersonViewController.h */,
 				6F106A792482EE8D00D7CC47 /* PersonViewController.m */,
+				6FE7E7D424837C9000775B32 /* MyWorksViewController.h */,
+				6FE7E7D524837C9000775B32 /* MyWorksViewController.m */,
+				6FE7E7E02483844B00775B32 /* People2ViewController.h */,
+				6FE7E7E12483844B00775B32 /* People2ViewController.m */,
+				6FE7E7DA24837F6700775B32 /* MyWorksInfViewController.h */,
+				6FE7E7DB24837F6700775B32 /* MyWorksInfViewController.m */,
+				6FE7E7DD2483840C00775B32 /* Person2ViewController.h */,
+				6FE7E7DE2483840D00775B32 /* Person2ViewController.m */,
+				6FE7E7E32483874D00775B32 /* WorkingViewController.h */,
+				6FE7E7E42483874D00775B32 /* WorkingViewController.m */,
+				6FB477E22483977D00547932 /* WorkingInfViewController.h */,
+				6FB477E32483977D00547932 /* WorkingInfViewController.m */,
+				6FB477E52483BECD00547932 /* MyWorkAddViewController.h */,
+				6FB477E62483BECD00547932 /* MyWorkAddViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -381,10 +416,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F0D1086247CEDD0001FB5FC /* Work.m in Sources */,
+				6FE7E7E52483874D00775B32 /* WorkingViewController.m in Sources */,
+				6FB477E42483977D00547932 /* WorkingInfViewController.m in Sources */,
 				6F106A6C2482E48900D7CC47 /* PeopleViewController.m in Sources */,
 				6FEE714A247B95A1009BAB2C /* main.m in Sources */,
+				6FB477E72483BECD00547932 /* MyWorkAddViewController.m in Sources */,
 				6FEE717A247BD189009BAB2C /* User.m in Sources */,
 				6F0D107B247C05A7001FB5FC /* Mine.m in Sources */,
+				6FE7E7DC24837F6700775B32 /* MyWorksInfViewController.m in Sources */,
 				6FEE7174247BB0A8009BAB2C /* MainViewController.m in Sources */,
 				6F106A762482EB8800D7CC47 /* PeopleTableViewCell.m in Sources */,
 				6F106A7A2482EE8D00D7CC47 /* PersonViewController.m in Sources */,
@@ -395,9 +434,12 @@
 				6FEE7136247B95A1009BAB2C /* AppDelegate.m in Sources */,
 				6F106A8324836BC000D7CC47 /* MBProgressHUD.m in Sources */,
 				6FEE7139247B95A1009BAB2C /* SceneDelegate.m in Sources */,
+				6FE7E7D624837C9000775B32 /* MyWorksViewController.m in Sources */,
 				6FEE7142247B95A1009BAB2C /* ding.xcdatamodeld in Sources */,
 				6F106A0F2482991D00D7CC47 /* WorksInfViewController.m in Sources */,
 				6F106A092480B1D300D7CC47 /* Department.m in Sources */,
+				6FE7E7E22483844B00775B32 /* People2ViewController.m in Sources */,
+				6FE7E7DF2483840D00775B32 /* Person2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
