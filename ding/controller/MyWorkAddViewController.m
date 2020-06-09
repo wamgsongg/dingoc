@@ -86,15 +86,15 @@
             if (data==nil||error)return;
            // 解析JSON
             NSDictionary* dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
-            NSLog(@"wdic:%@", dic);
+            //NSLog(@"wdic:%@", dic);
             NSString *msg = [dic valueForKey:@"msg"];
             NSMutableArray *da = [dic valueForKey:@"data"];
-            
-            if ([msg isEqualToString:@"success"]) {
-                [MBProgressHUD showSuccess:msg];
-                return;
-                // NSLog(@"%@",app.working);
-            }
+            NSLog(@"msg:%@", msg);
+//            if ([msg isEqualToString:@"success"]) {
+//                //[MBProgressHUD showSuccess:msg];
+//                return;
+//                // NSLog(@"%@",app.working);
+//            }
         }];
         
     [task resume];
@@ -107,7 +107,6 @@
 
 
 - (IBAction)add:(id)sender {
-   
    [self requestAddWork];
 }
 

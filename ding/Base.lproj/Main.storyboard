@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s1h-OG-bZm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s1h-OG-bZm">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,6 +21,7 @@
                         <segue destination="90g-ZU-e7x" kind="relationship" relationship="viewControllers" id="ds8-kd-Npi"/>
                         <segue destination="eqr-93-ONy" kind="relationship" relationship="viewControllers" id="dxU-7i-pvw"/>
                         <segue destination="lyy-yN-Uxt" kind="relationship" relationship="viewControllers" id="GPs-Cd-BLc"/>
+                        <segue destination="LGt-zA-Jav" kind="relationship" relationship="viewControllers" id="Dq3-du-8yP"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EQs-BR-gxp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -107,6 +108,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hmn-Es-1hS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1300" y="-419"/>
+        </scene>
+        <!--小工具-->
+        <scene sceneID="TYl-bH-vS5">
+            <objects>
+                <viewController id="LGt-zA-Jav" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3YJ-dT-JRM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="V1a-2m-7fB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="小工具" image="hammer" catalog="system" id="Mis-cd-qfm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ent-tj-Ppg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="171" y="996"/>
         </scene>
         <!--管理-->
         <scene sceneID="c6P-Ge-8KM">
@@ -476,7 +493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qTQ-fF-Zgc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1909" y="818"/>
+            <point key="canvasLocation" x="1733" y="1167"/>
         </scene>
         <!--我创建的-->
         <scene sceneID="jQS-l9-bpf">
@@ -545,7 +562,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t4t-NC-lfi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2642" y="789"/>
+            <point key="canvasLocation" x="2639" y="1125"/>
         </scene>
         <!--Item-->
         <scene sceneID="Tz5-AP-4da">
@@ -776,7 +793,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wFE-IS-u0X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3400" y="1021"/>
+            <point key="canvasLocation" x="3426" y="945"/>
         </scene>
         <!--事务详情-->
         <scene sceneID="wbb-8p-L5P">
@@ -860,7 +877,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P96-QJ-85G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2789.8550724637685" y="308.70535714285711"/>
+            <point key="canvasLocation" x="2778" y="386"/>
         </scene>
         <!--人员-->
         <scene sceneID="Doq-AT-7Nl">
@@ -1268,7 +1285,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mZV-2z-pgi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2843" y="-314"/>
+            <point key="canvasLocation" x="3126" y="-314"/>
         </scene>
         <!--创建事务-->
         <scene sceneID="7Cl-ha-pGl">
@@ -1334,7 +1351,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NCz-Cr-Nbq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3839" y="631"/>
+            <point key="canvasLocation" x="3797" y="474"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="c5r-3G-v9Z">
@@ -1438,14 +1455,14 @@
     </scenes>
     <resources>
         <image name="222" width="454" height="119"/>
-        <image name="chevron.right" catalog="system" width="96" height="128"/>
-        <image name="envelope" catalog="system" width="128" height="93"/>
-        <image name="hammer" catalog="system" width="128" height="115"/>
-        <image name="message" catalog="system" width="128" height="113"/>
-        <image name="pencil" catalog="system" width="128" height="113"/>
-        <image name="person.2" catalog="system" width="128" height="81"/>
-        <image name="phone" catalog="system" width="128" height="115"/>
-        <image name="square.and.pencil" catalog="system" width="128" height="118"/>
-        <image name="text.justify" catalog="system" width="128" height="100"/>
+        <image name="chevron.right" catalog="system" width="48" height="64"/>
+        <image name="envelope" catalog="system" width="64" height="46"/>
+        <image name="hammer" catalog="system" width="64" height="56"/>
+        <image name="message" catalog="system" width="64" height="56"/>
+        <image name="pencil" catalog="system" width="64" height="56"/>
+        <image name="person.2" catalog="system" width="64" height="40"/>
+        <image name="phone" catalog="system" width="64" height="56"/>
+        <image name="square.and.pencil" catalog="system" width="64" height="58"/>
+        <image name="text.justify" catalog="system" width="64" height="50"/>
     </resources>
 </document>
